@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sohan's Personal Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            text-align: center;
+            background-color: #cddbf8;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Yomogi', cursive;
+            font-size: 70px;
+            font-weight: 500;
+            color: #5A6DAD;
+            margin-bottom: 0%;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: 'Yomogi', cursive;
+            color: #5A6DAD;
+            margin: 30px auto 30px auto;
+        }
+
+        h3 {
+            color: #5A6DAD;
+            margin: 0px auto 30px auto;
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-size: larger;
+            font-size: 20px;
+            line-height: 1.5;
+            color: black;
+        }
+
+        /* first page design */
+        .top-container {
+            padding-top: 100px;
+            display: block;
+            position: relative;
+        }
+
+        .coding {
+            width: 200px;
+            height: 200px;
+            float: left;
+            margin-right: 50px;
+        }
+
+        .typing {
+            width: 200px;
+            height: 200px;
+            float: left;
+            margin-right: 50px;
+        }
+
+        #programmer {
+            color: #5A6DAD;
+        }
+
+        .cloud1 {
+            position: absolute;
+            right: 360px;
+            top: 20px;
+        }
+
+        .cloud2 {
+            position: absolute;
+            left: 300px;
+            top: 250px;
+        }
+
+        .mountain {
+            padding-top: 0px;
+        }
+
+        /* second page design */
+
+        #bio {
+            margin: auto;
+            width: 45%;
+            text-align: left;
+        }
+
+        .profilepic {
+            margin: 100px auto 0px auto;
+        }
+
+        .skill-row {
+            display: inline-block;
+            width: 50%;
+            margin: 60px auto 60px auto;
+            text-align: left;
+            padding-top: 0px;
+        }
+
+        .btn{
+            background-color: #5A6DAD;
+            color: white;
+            font-size: large;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            margin : 50px auto 50px auto;
+        }
+        .btn:hover{
+            background-color: #3b4874;
+        }
+
+        .bottom-container{
+            
+            background-color: #5A6DAD;
+            display: flex;
+            justify-content: center;
+           align-items: center;
+        }
+        a{
+            font-size: large;
+            padding-right: 50px;
+            padding-left: 50px;
+            text-decoration: none;
+            color: #283252;
+        }
+        a:hover{
+            font-size: larger;
+            color: #ebecf1;
+            background-color: #5A6DAD;
+        }
+        #keybr{
+            padding-right: 0px;
+            padding-left: 0px;
+            font-size: large;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top-container">
+        <img class="cloud1" src="img/cloud.png" alt="cloud img">
+        <h1>I'm Sohan</h1>
+        <p id="programmer">a programmer.</p>
+        <img class="mountain" src="img/mountain.png" alt="cloud img">
+        <img class="cloud2" src="img/cloud.png" alt="cloud img">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+            <img class="profilepic" src="img/profile.png" alt="profile pic">
+            <h2>Hello.</h2>
+            <p id="bio">I am curruntly pursuing my B-Tech degree in Information technology at VVP Engineering College. I
+                love
+                programming and reading books. </p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="coding" src="img/coding.png" alt="icon">
+                <h3>Coding</h3>
+                <p class="skill1">I am skilled in competitive programming as well as development. I have good ranking in
+                    online coding plateforms and I have around 2 years of experience in development</p>
+            </div>
+            <div class="skill-row">
+                <img class="typing" src="img/typing.png" alt="icon">
+                <h3>Typing</h3>
+                <p class="skill2">My average typing speed is around 70-80 WPM as well as accurate. Sometimes it reaches
+                    to 100 WPM too. I have learned fast typing from the website called <a id="keybr" href="www.keybr.com">www.keybr.com</a>.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>If you love coding as much as I do.</h3>
+            <a class="btn" href="mailto:sohangajjar22.2@email.com">CONTACT ME</a>
+        </div>
+    </div>
+
+
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/sohan-gajjar-96354b1a7/">LinkedIn</a>
+        <a class="footer-link" href="https://codeforces.com/profile/sohan_gajjar">Codeforces</a>
+        <a class="footer-link" href="https://www.codechef.com/users/sohan_gajjar">Codechef</a>
+    </div>
+
+</body>
+
+</html>
